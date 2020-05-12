@@ -3,7 +3,7 @@ plugins {
 }
 
 group 'com.theeditorstudio.bililive'
-version '1.0-SNAPSHOT'
+version '1.0'
 
 jar{
     manifest{
