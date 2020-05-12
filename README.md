@@ -1,10 +1,11 @@
 # BiliLive 分布式录机
 
 [![Build Status](https://travis-ci.org/ssysm/BLDR.svg?branch=master)](https://travis-ci.org/ssysm/BLDR)
+[![time tracker](https://wakatime.com/badge/github/ssysm/BLDR.svg)](https://wakatime.com/badge/github/ssysm/BLDR)
 
 BLDR: Bilibili Live Distributed Recorder. 一个为可扩展性而生的直播录机。 A live stream recorder that is scalable. 
 
-![](BiliLiveDispatcher/src/main/resources/web.png)
+![ScreenShot](BiliLiveDispatcher/src/main/resources/web.png)
 
 ## 运行需求
  - Java 11+ (节点+任务服务器)
