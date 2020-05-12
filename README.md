@@ -1,15 +1,19 @@
 # BiliLive 分布式录机
 
+[![Build Status](https://travis-ci.org/ssysm/BLDR.svg?branch=master)](https://travis-ci.org/ssysm/BLDR)
+
 BLDR: Bilibili Live Distributed Recorder. 一个为可扩展性而生的直播录机。 A live stream recorder that is scalable. 
 
 ![](BiliLiveDispatcher/src/main/resources/web.png)
 
 ## 运行需求
  - Java 11+ (节点+任务服务器)
- - Redis Server 2.4.5+ (任务服务器)
+ - Redis缓存服务器2.4.5+ (任务服务器)
  - FFmpeg 4.2.0+ (节点) 
 
 ## 运行步骤
+
+-  从 [`Release`](https://github.com/ssysm/BLDR/releases) 下载zip文件或自行构造 (`./gradlew assemble`)
 
 ### 节点运行步骤
 1. [可选]将FFmpeg的二进制文件夹导出至`FFMPEG_BIN`, 例 `export FFMPEG_BIN=/opt/ffmpeg/bin/`
